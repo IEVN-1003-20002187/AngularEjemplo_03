@@ -1,0 +1,11 @@
+<h1>Ejemplo de sumar en diseño</h1>
+<div class="container">
+    <mat-form-field>
+        <input  matInput [(ngModel)] ="num1" type="number" placeholder="Ingresa un numero">
+    </mat-form-field>
+    <mat-form-field>
+        <input  matInput [(ngModel)] ="num2" type="number" placeholder="Ingresa de nuevo un numero">
+    </mat-form-field>
+    <button mat-raised-button color="primary" (click)="sumar()">Sumar</button>
+<p>La suma es: {{res}}</p>
+</div>
